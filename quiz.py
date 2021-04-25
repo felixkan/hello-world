@@ -88,7 +88,7 @@ left_column, right_column = st.beta_columns(2)
 pressed = right_column.button('See what is your emotion!')
 if pressed:
     f"""## You are {result}!! Good job!   
-    You got {total_score} points in total.Thank you for doing the quiz!"""
+    You got {total_score} points in total. Thank you for doing the quiz!"""
     
 
 
