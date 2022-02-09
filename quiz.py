@@ -84,7 +84,7 @@ else:
 
 
 # Output the results.
-left_column, right_column = st.columns(2)   # changed beta_columns to columns
+left_column, right_column = st.columns(2)
 pressed = right_column.button('See what is your emotion!')
 if pressed:
     f"""## You are {result}!! Good job!   
